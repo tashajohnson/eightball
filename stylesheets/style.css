@@ -1,0 +1,47 @@
+.lists {
+  background-color: black;
+  color: #F719F7;
+  padding: 80px;
+  min-height: 300px;
+}
+.ball {
+  color: #fff;
+  border-radius: 100%;
+  background: radial-gradient(#808080, #000);
+  max-width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: 80px 80px;
+}
+#answer {
+  width: 0;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid #F719F7;
+  margin-left: 90px;
+}
+#answerText {
+  text-align: center;
+  top: 40px;
+  left: -47px;
+  position: relative;
+  width: 93px;
+  height: 93px;
+  margin: 0px;
+  font-size: 16px;
+  text-shadow: 2px 2px #000;
+}
+.header {
+  margin: 80px 0 20px 0;
+}
+button {
+  margin-bottom: 10px;
+}
+input {
+  text-align: center;
+}
+p {
+  font-size: 24px;
+  text-shadow: 2px 2px #000;
+}
